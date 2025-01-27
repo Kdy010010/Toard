@@ -6,10 +6,9 @@
   <body>
     <div id="top"></div>
     <div class="fixed top">
-      <b>Toard - </b>
-      <span>Text only bulletin board</span>
+      <span>tmpf-자유로운 토론장</span>
     </div>
-    <a href="#create" class="fixed top right">New Thread</a
+    <a href="#create" class="fixed top right">새 제안</a
     ><br /><br />
 
     <div id="posts">
@@ -33,73 +32,7 @@
         action="/<%= id %>/reply"
         method="POST"
         class="fixed left right bottom popup"
-        style="bottom: 40px"
-      >
-        <div>
-          <input
-            style="width: 98%"
-            type="text"
-            name="t"
-            id="reply_name"
-            placeholder="Name (optional)"
-          />
-        </div>
-        <textarea
-          style="width: 98%; height: 120px; resize: both;"
-          name="d"
-          placeholder="Comment"
-          id="reply_comment"
-          required
-          autofocus
-        ></textarea>
-        <button
-          class="right"
-          style="color: black; background: white"
-          type="submit"
-          id="reply_button"
-        >
-          Reply
-        </button>
-        <a style="color: black; background: white" href="#">Cancel</a>
-        <small>Replying to <b>/<%= id %>/</b></small>
-      </form>
-      <% } %>
-
-      <!-- Post Creation -->
-      <form
-        id="create"
-        action="/create"
-        method="POST"
-        class="fixed left right popup"
-        style="bottom: 40px"
-      >
-        <div>
-          <input
-            style="width: 98%"
-            type="text"
-            name="t"
-            placeholder="Title"
-            required
-            autofocus
-          />
-        </div>
-        <textarea
-          style="width: 98%; height: 120px; resize: both;"
-          name="d"
-          placeholder="Description"
-          required
-          autofocus
-        ></textarea
-        ><br />
-        <button
-          class="right"
-          style="float: right; color: black; background: white"
-          type="submit"
-        >
-          Create Thread
-        </button>
-        <a style="color: black; background: white" href="#">Cancel</a>
-        <small>Create new thread</small>
+        style="bo안</small>
       </form> 
     </div>
 
